@@ -8,10 +8,5 @@ namespace FriendLetter.Models
     public string Location { get; set; }
     public string Souvenir { get; set; }
     public static string TestRecipient { get; set; } = "LEIlaniiii";
-    public static string GetTestRecipient()
-    {
-      return TestRecipient;
-    }
   }
-
 }
